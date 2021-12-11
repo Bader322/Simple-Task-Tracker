@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
+import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     {
       id: 2,
       text: "Massage appt",
-      day: "March 51th",
+      day: "March 15th",
       reminder: false,
     },
     {
@@ -73,6 +74,7 @@ function App() {
       ) : (
         "No tasks to show"
       )}
+      <Footer />
     </div>
   );
 }

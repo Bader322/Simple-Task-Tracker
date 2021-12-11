@@ -1,0 +1,22 @@
+.linkToDev > img {
+  width: 120px;
+}
+.copyrightContainer {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 440px) {
+  .copyrightContainer {
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: unset;
+    align-items: flex-start;
+  }
+}
